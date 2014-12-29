@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data", "Data\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data.Models", "Data\ForumSystem.Data.Models\ForumSystem.Data.Models.csproj", "{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "Web\ForumSystem.Web\ForumSystem.Web.csproj", "{0372C010-AE20-4244-B7F7-EA8046102B60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "Web\ForumSystem.Web\ForumSystem.Web.csproj", "{EB2228B8-9E98-4ADB-806E-A7224A5FE525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,10 @@ Global
 		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0372C010-AE20-4244-B7F7-EA8046102B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0372C010-AE20-4244-B7F7-EA8046102B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0372C010-AE20-4244-B7F7-EA8046102B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0372C010-AE20-4244-B7F7-EA8046102B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2228B8-9E98-4ADB-806E-A7224A5FE525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2228B8-9E98-4ADB-806E-A7224A5FE525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2228B8-9E98-4ADB-806E-A7224A5FE525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2228B8-9E98-4ADB-806E-A7224A5FE525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5} = {5FEE758F-A277-4864-8171-1CA0D10C9BD9}
 		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97} = {5FEE758F-A277-4864-8171-1CA0D10C9BD9}
-		{0372C010-AE20-4244-B7F7-EA8046102B60} = {4917D409-57FD-4901-9DC6-D0EB8803E152}
+		{EB2228B8-9E98-4ADB-806E-A7224A5FE525} = {4917D409-57FD-4901-9DC6-D0EB8803E152}
 	EndGlobalSection
 EndGlobal
