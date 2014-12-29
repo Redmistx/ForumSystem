@@ -246,6 +246,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\ForumSystem.Data.Common\ForumSystem.Data.Common.csproj">
+      <Project>{4d38072b-67eb-4fa1-854d-a899f8a8c92c}</Project>
+      <Name>ForumSystem.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\ForumSystem.Data.Models\ForumSystem.Data.Models.csproj">
       <Project>{b12ff0bf-4e14-4497-bce7-f716d19a9e97}</Project>
       <Name>ForumSystem.Data.Models</Name>

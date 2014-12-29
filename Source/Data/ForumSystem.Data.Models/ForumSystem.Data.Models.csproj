@@ -54,10 +54,21 @@
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ForumSystem.Common\ForumSystem.Common.csproj">
+      <Project>{56b4d74f-b863-4dde-bb58-3cb3a7c04081}</Project>
+      <Name>ForumSystem.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ForumSystem.Data.Common\ForumSystem.Data.Common.csproj">
+      <Project>{4d38072b-67eb-4fa1-854d-a899f8a8c92c}</Project>
+      <Name>ForumSystem.Data.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
