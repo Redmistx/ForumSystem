@@ -3,8 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5FEE758F-A277-4864-8171-1CA0D10C9BD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{8A856F92-0B08-4A98-BBCE-06C52A91D755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{4917D409-57FD-4901-9DC6-D0EB8803E152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{060E8ADD-8D31-4C7A-85C3-7B0B033CFCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Common", "ForumSystem.Common\ForumSystem.Common.csproj", "{56B4D74F-B863-4DDE-BB58-3CB3A7C04081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data", "Data\ForumSystem.Data\ForumSystem.Data.csproj", "{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data.Models", "Data\ForumSystem.Data.Models\ForumSystem.Data.Models.csproj", "{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "Web\ForumSystem.Web\ForumSystem.Web.csproj", "{409EA65F-27C1-4BDE-9F81-FCF68C467D36}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B4D74F-B863-4DDE-BB58-3CB3A7C04081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B4D74F-B863-4DDE-BB58-3CB3A7C04081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B4D74F-B863-4DDE-BB58-3CB3A7C04081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B4D74F-B863-4DDE-BB58-3CB3A7C04081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409EA65F-27C1-4BDE-9F81-FCF68C467D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409EA65F-27C1-4BDE-9F81-FCF68C467D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409EA65F-27C1-4BDE-9F81-FCF68C467D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409EA65F-27C1-4BDE-9F81-FCF68C467D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF19A2D0-C0F8-499C-B2D6-32D5C940A5C5} = {5FEE758F-A277-4864-8171-1CA0D10C9BD9}
+		{B12FF0BF-4E14-4497-BCE7-F716D19A9E97} = {5FEE758F-A277-4864-8171-1CA0D10C9BD9}
+		{409EA65F-27C1-4BDE-9F81-FCF68C467D36} = {4917D409-57FD-4901-9DC6-D0EB8803E152}
 	EndGlobalSection
 EndGlobal
