@@ -3,9 +3,38 @@
     ViewBag.Title = "Home Page";
 }
 
-<div>
+<div class="container">
     @foreach(var post in Model)
     {
-        <p>@post.Title</p>
+        <div class="row">
+            <div class="col-md-1">
+                <div class="well text-center">
+                    <div class="row">10</div>
+                    <div class="row">answers</div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="well text-center">
+                    <div class="row">10</div>
+                    <div class="row">answers</div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <h4>
+                        <a href="/312/43212">@post.Title</a>
+                    </h4>
+                </div>
+                <div class="row">
+                    <p>Some text here</p>
+                </div>
+                <div class="row">
+                    <span class="label label-info">tag1</span>
+                    <span class="label label-info">tag2</span>
+                    <span class="label label-info">tag3</span>
+                </div>
+            </div>
+        </div>
+        <hr >
     }
 </div>
