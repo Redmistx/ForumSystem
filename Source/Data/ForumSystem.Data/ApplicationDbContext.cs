@@ -18,6 +18,8 @@
 
         public IDbSet<Tag> Tags { get; set; }
 
+        public IDbSet<Post> Posts { get; set; }
+
         public override int SaveChanges()
         {
             this.ApplyAuditInfoRules();
