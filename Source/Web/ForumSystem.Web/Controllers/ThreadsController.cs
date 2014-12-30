@@ -23,13 +23,14 @@ namespace ForumSystem.Web.Controllers
 
         // GET - POST - REDIRECT
         [HttpGet]
-        public ActionResult Ask()
+        public ActionResult Create()
         {
-            return Content("Get");
+            var model = new CreateInputModel();
+            return View();
         }
 
         [HttpPost]
-        public ActionResult Ask(AskInputModel input)
+        public ActionResult Create(CreateInputModel input)
         {
             return Content("Post");
         }
