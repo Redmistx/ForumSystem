@@ -1,5 +1,6 @@
 ﻿namespace ForumSystem.Web.ViewModels.Home
 {
+    using AutoMapper;
     using ForumSystem.Data.Models;
     using ForumSystem.Web.Infrastructure.Mapping;
 

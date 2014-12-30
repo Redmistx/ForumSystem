@@ -36,7 +36,7 @@
                         {
                             Source = i.GetGenericArguments()[0],
                             Destination = t
-                        });
+                        }).ToArray();
 
             foreach (var map in maps)
             {
@@ -51,7 +51,7 @@
                         where typeof(IHaveCustomMappings).IsAssignableFrom(t) &&
                               !t.IsAbstract &&
                               !t.IsInterface
-                        select (IHaveCustomMappings)Activator.CreateInstance(t));
+                        select (IHaveCustomMappings)Activator.CreateInstance(t)).ToArray();
 
             foreach (var map in maps)
             {

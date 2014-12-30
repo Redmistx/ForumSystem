@@ -10,8 +10,9 @@
 
         [MaxLength(100)]
         public string Title { get; set; }
-        // TODO: Author, etc
 
+        [MaxLength(100)]
+        public string SomeShit { get; set; }
 
         public bool IsDeleted { get; set; }
 
